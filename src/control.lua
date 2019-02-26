@@ -40,7 +40,6 @@ end
 
 script.on_event(defines.events.on_player_created, function(event)
   local player = game.players[event.player_index]
-  player.insert{name = 'iron-axe', count = 1}
   player.insert{name = 'car', count = 1}
 end)
 
